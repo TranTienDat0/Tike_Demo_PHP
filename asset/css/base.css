@@ -1,0 +1,29 @@
+:root {
+    --main-color: #1a94ff;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+button,
+a{
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+.icon{
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}

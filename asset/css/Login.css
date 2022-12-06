@@ -1,0 +1,126 @@
+.header__logo-title {
+    font-size: 30px;
+    color: var(--white-color);
+}
+
+.content {
+    margin: 40px 0;
+}
+
+.content__login{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__login-img {
+    width: 420px;
+    height: 420px;
+}
+
+.content__login-form {
+    padding: 32px;
+    background-color: var(--white-color);
+}
+
+.content__login-form-caption {
+    height: 60px;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.content__login-form-input {
+    max-width: 100%;
+    min-width: 340px;
+    height: 40px;
+    text-indent: 20px;
+    outline: none;
+    display: block;
+}
+
+.content__login-form-userName {
+}
+
+.content__login-form-password {
+    margin-top: 16px;
+}
+
+.content__login-form-btn--login {
+    background-color: #ff424e;
+    border-radius: 5px;
+    border: 0;
+    padding: 13px 10px;
+    margin-top: 16px;
+    width: 100%;
+    color: var(--white-color);
+}
+
+.content__login-form-help {
+    display: flex;
+    justify-content: space-between;
+    color: #05a;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.line{
+    height: 20px;
+    width: 80%;
+    border-top: 1px solid #ccc;
+    margin: 30px auto 0;
+    position: relative;
+}
+
+.content__login-form-connect-text {
+    color: #969494;
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: var(--white-color);
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content__login-form-groupbtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-img {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+}
+
+.content__login-form-btn {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 42px;
+    background-color: var(--white-color);
+    border: 1px solid black;
+}
+
+.content__login-form-text {
+    display: block;
+}
+
+.content__login-form-text {}
+
+.content__login-form-footer {
+    font-size: 13px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content-login-form-footer-text{
+    color: #ccc;
+}
+
+.content-login-form-footer-link{
+
+}
